@@ -1,0 +1,111 @@
+{
+    "title": "Nakkubetta TV",
+    "description": "Spiritual and Cultural Badaga TV Channel",
+    "description1": "NAKKUBETTA TV is a Cultural & Spiritual TV Channel in Nilgiri district, Tamilnadu. The Chief aim of NAKKUBETTA TV is to spread the Indian traditional and eternal religion, philosophy and cultural values supported by the universal ideals of modern philosopher Swami Vivekananda",
+    "liveTvURL": [
+      {
+        "name": "Server 1",
+        "url": "http://nakkubettatv.livebox.co.in/nbtvhls/nbtv.m3u8",
+        "isHLS": true
+      },
+      {
+        "name": "Server 2",
+        "url": "http://nakkubettatv.livebox.co.in:3000/?url=http://nakkubettatv.livebox.co.in/nbtvhls/nbtv.m3u8",
+        "isHLS": false
+      },
+      {
+        "name": "Server 3",
+        "url": "https://nakkubettatv.livebox.co.in/livebox/player/?chnl=nbtv",
+        "isHLS": false
+      }
+    ],
+    "nakkubetta": {
+      "title": "Nakkubetta TV",
+      "about": {
+        "logo": "../../../assets/img/logo_contact_us.png",
+        "line1": "Nakkubetta TV",
+        "line2": ""
+      },
+      "contact": {
+        "phone": [
+          {
+            "logo": "call",
+            "phNumber": "+918940004242",
+            "whatsapp": false,
+            "color": "success"
+          },
+          {
+            "logo": "logo-whatsapp",
+            "phNumber": "+919843174765",
+            "whatsapp": true,
+            "color": "success"
+          }
+        ],
+        "email": {
+          "logo": "mail-outline",
+          "id": "office@nakkubetta.tv",
+          "color": "warning"
+        },
+        "website": {
+          "logo": "logo-chrome",
+          "url": "https://www.nakkubetta.tv/about/",
+          "color": "danger"
+        }
+      },
+      "socialMedia": [
+        {
+          "name": "facebook",
+          "logo": "logo-facebook",
+          "url": "https://www.facebook.com/NakkubettaTV",
+          "color": "warning"
+        },
+        {
+          "name": "instagram",
+          "logo": "logo-instagram",
+          "url": "https://instagram.com/nakkubettatv",
+          "color": "danger"
+        },
+        {
+          "name": "youtube",
+          "logo": "logo-youtube",
+          "url": "https://www.youtube.com/channel/UCIztcOKnrVrXdBjI24CnSHw",
+          "color": "danger"
+        },
+        {
+          "name": "linkedin",
+          "logo": "logo-linkedin",
+          "url": "https://www.linkedin.com/in/nakkubetta-tv-a2bb0297",
+          "color": "warning"
+        }
+      ]
+    },
+    "developer": {
+      "title": "Developer",
+      "about": {
+        "logo": "",
+        "line1": "Umesh Kumar",
+        "line2": "Kanneri Manthanai"
+      },
+      "contact": {
+        "phone": [{
+          "logo": "logo-whatsapp",
+          "phNumber": "+919945734568",
+          "whatsapp": true,
+          "color": "success"
+        }],
+        "email": {
+          "logo": "mail-outline",
+          "id": "umeshkumar.kumar@gmail.com",
+          "color": "warning"
+        }
+      },
+      "socialMedia": [
+        {
+          "name": "linkedin",
+          "logo": "logo-linkedin",
+          "url": "https://in.linkedin.com/in/umesh-kumar-b116011a7",
+          "color": ""
+        }
+      ]
+    }
+  }

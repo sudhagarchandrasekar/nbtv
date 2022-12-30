@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">nakkubettaTV</string>
+    <string name="title_activity_main">nakkubettaTV</string>
+    <string name="package_name">com.uk.nbtv.v2</string>
+    <string name="custom_url_scheme">com.uk.nbtv.v2</string>
+</resources>
