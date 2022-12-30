@@ -1,0 +1,73 @@
+<!-- <ion-grid class="portrait-mode-center radio-player">
+  <ion-row>
+    <ion-col>
+      
+    </ion-col>
+  </ion-row>
+</ion-grid> -->
+
+<ion-grid class="portrait-mode-center" *ngIf="selectedSource !== null">
+  <ion-row>
+    <ion-col class="radio-player-col">
+      <ion-item>
+        <iframe id="nbtv_video_player" #video_player_iframe [src]="getSanitizedURL('http://transcoding.livebox.co.in/liveradio/public/nakkubetta_radio')" class="nbtv-livetv-iframe-portrait" >
+        </iframe>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<div>
+    <h5 class="sub-heading"><b>Trending</b></h5>
+    <ion-grid>
+<ion-row>
+    <swiper [slidesPerView]="isPortait?2:3" [zoom]="true" (reachEnd)="checkMoreVideos($event,1)" style="">
+    <ng-container *ngFor="let video of videos">
+            <ng-template swiperSlide>
+              <ion-col class="slide-col">
+                <ion-img [src]="video.snippet.thumbnails.medium.url"></ion-img>
+                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->
+              </ion-col>
+            </ng-template>
+        </ng-container>
+  </swiper>
+  </ion-row>
+</ion-grid>
+</div>
+
+
+<div>
+    <h5 class="sub-heading"><b>Latest</b></h5>
+    <ion-grid>
+<ion-row>
+    <swiper [slidesPerView]="isPortait?2:3" [zoom]="true" (reachEnd)="checkMoreVideos($event,1)" style="">
+    <ng-container *ngFor="let video of latestvideos">
+            <ng-template swiperSlide>
+              <ion-col class="slide-col">
+                <ion-img [src]="video.snippet.thumbnails.medium.url"></ion-img>
+                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->
+              </ion-col>
+            </ng-template>
+        </ng-container>
+  </swiper>
+  </ion-row>
+</ion-grid>
+</div>
+
+<div>
+    <h5 class="sub-heading"><b>Mostly Viewed</b></h5>
+    <ion-grid>
+<ion-row>
+    <swiper [slidesPerView]="isPortait?2:3" [zoom]="true" (reachEnd)="checkMoreVideos($event,1)" style="">
+    <ng-container *ngFor="let video of viewedvideos">
+            <ng-template swiperSlide>
+              <ion-col class="slide-col">
+                <ion-img [src]="video.snippet.thumbnails.medium.url"></ion-img>
+                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->
+              </ion-col>
+            </ng-template>
+        </ng-container>
+  </swiper>
+  </ion-row>
+</ion-grid>
+</div>

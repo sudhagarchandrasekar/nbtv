@@ -1,0 +1,73 @@
+<!-- Display as a card -->
+<ion-card class="card-background-light">
+    <ion-card-header>
+        <ion-card-subtitle>{{profile.title}}</ion-card-subtitle>
+    </ion-card-header>
+    <ion-img *ngIf="profile.about.logo !== ''"  [src]="profile.about.logo" 
+             class="nbtv-logo-center-small">
+    </ion-img>
+    <ion-card-content>
+        <ion-grid>
+            <!-- 1st row : line 1 & line 2-->
+            <ion-row>
+                <ion-col>
+                    <ion-label>
+                    <h2>{{profile.about.line1}}</h2>
+                    <h3>{{profile.about.line2}}</h3>
+                    </ion-label>
+                </ion-col>
+            </ion-row>
+
+            <!-- 2nd row : contact details -->
+            <ion-row>
+                <ion-col>
+                    <ion-label>Contact</ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+
+                <!-- 1st col: email -->
+                <ion-col>
+                    <ion-button (click)="handleEmail(profile.contact.email)" color="tertiary">
+                        <ion-icon [name]="profile.contact.email.logo" [color]="profile.contact.email.color"></ion-icon>
+                    </ion-button>
+                </ion-col>
+
+                <!-- 2nd col: phone -->
+                <ion-col>
+                    <ion-button (click)="handlePhone(profile.contact.phone[0])" color="tertiary">
+                        <ion-icon [name]="profile.contact.phone[0].logo" [color]="profile.contact.phone[0].color"></ion-icon>
+                    </ion-button>
+                </ion-col>
+
+                <!-- 3rd col: alt phone-->
+                <ion-col *ngIf="profile.contact.phone.length > 1">
+                    <ion-button (click)="handlePhone(profile.contact.phone[1])" color="tertiary">
+                        <ion-icon [name]="profile.contact.phone[1].logo" [color]="profile.contact.phone[1].color"></ion-icon>
+                    </ion-button>
+                </ion-col>
+                
+                <!-- 4th col: website -->
+                <ion-col *ngIf="profile.contact.website !== undefined">
+                    <ion-button (click)="handleWebsite(profile.contact.website)" color="tertiary">
+                        <ion-icon [name]="profile.contact.website.logo" [color]="profile.contact.website.color"></ion-icon>
+                    </ion-button>
+                </ion-col>
+            </ion-row>
+
+            <!-- 3d row: Social Media-->
+            <ion-row>
+                <ion-col>
+                    <ion-label>Follow</ion-label>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col *ngFor="let socMedia of profile.socialMedia">
+                    <ion-button (click)="handleSocialMedia(socMedia)" color="tertiary">
+                        <ion-icon [name]="socMedia.logo" [color]="socMedia.color"></ion-icon>
+                    </ion-button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>      
+    </ion-card-content>
+</ion-card>

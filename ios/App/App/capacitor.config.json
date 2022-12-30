@@ -1,0 +1,6 @@
+{
+	"appId": "com.uk.nbtv.v2",
+	"appName": "nakkubettaTV",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

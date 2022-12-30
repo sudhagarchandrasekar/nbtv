@@ -1,0 +1,37 @@
+<ion-app>
+
+  <!-- add side menu -->
+  <ion-menu side="start" contentId="menuContent" menuId="aboutMenu" class="menu-font" *ngIf="appData">
+    <ion-header>
+      <ion-toolbar translucent>
+        <ion-title>{{appData.title}}</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <app-menu-content [appData]="appData"></app-menu-content>
+    </ion-content>
+  </ion-menu>
+
+
+  <!-- add toolbar -->
+  <ion-header>
+    <ion-toolbar>
+      <!-- nbtv logo -->
+
+      <!-- Navigation Drawer Menu-->
+      <ion-buttons slot="start">
+        <ion-button (click)="openAboutMenuItem()">
+          <ion-icon  name="menu" color="primary"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      <ion-title>  
+        <ion-img [src]="nbtvLogoSrc" class="nbtv-logo-center-xxsmall"></ion-img>
+        </ion-title>
+    </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-progress-bar type="indeterminate" *ngIf="isDataInitialized"></ion-progress-bar>
+      <ion-router-outlet id="menuContent"></ion-router-outlet>
+    </ion-content>
+</ion-app>

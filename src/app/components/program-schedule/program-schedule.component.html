@@ -1,0 +1,31 @@
+<ion-progress-bar type="indeterminate" *ngIf="showLoader === true"></ion-progress-bar>
+
+<ion-grid *ngIf="isDataInitialized === true">
+  
+  <!-- 1st row for showing the next 7 calendar days -->
+  <ion-row>
+    <ion-col>
+      <ion-segment (ionChange)="changeSchedule($event)" scrollable="true">
+        <ion-segment-button *ngFor="let schedule of next7Days" [value]="schedule">
+          <ion-label>{{schedule.label}}</ion-label>
+        </ion-segment-button>
+      </ion-segment>
+    </ion-col>
+  </ion-row>
+
+  <!-- 2nd row for showing the schedule -->
+  <ion-row>
+    <ion-col>
+      <ion-list>
+        <ion-item *ngFor="let program of programSchedule.program">
+          <ion-label>
+            <h3>{{program.time}}</h3>
+            <h2>{{program.name}}</h2>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+
+
+</ion-grid>

@@ -1,0 +1,43 @@
+.card-background-light {
+    background-color: #FFFFFF;
+}
+.portrait-mode-center{
+	padding:0px;
+}
+.nbtv-logo-center-small {
+    /** 
+    height: 40vh;
+    **/
+    width: 40vw;
+    margin: auto;
+}
+.radio-player-col{
+	padding:0px;
+}
+.radio-player-col .item{
+	--padding-start: 0px;
+	--inner-padding-end: 0px;
+}
+#nbtv_video_player{
+	width: 100vw;
+	min-height: 300px;
+}
+.sub-heading{
+	padding: 10px 10px 0 10px;
+	margin: 0px;
+}
+.radio-player{
+	background-image: url('../../../assets/img/radio-logo.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    background-attachment: fixed;
+}
+.slide-col{
+	padding: 0px;
+	cursor:pointer;
+}
+
+.swiper-slide:hover{
+	border: 3px solid #ccc;
+}

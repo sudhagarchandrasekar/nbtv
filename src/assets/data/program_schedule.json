@@ -1,0 +1,434 @@
+{
+    "schedule": [
+        {
+            "day": "sunday",
+            "dayOfWeek": 0,
+            "program": [
+                {
+                    "time": "05:30 - 06:30",
+                    "name": "Tamil Bakthi Songs"
+                },
+                {
+                    "time": "06:30 - 07:30",
+                    "name": "Badaga Bakthi Songs"
+                },
+                {
+                    "time": "07:30 - 08:30",
+                    "name": "Badaga Adi Songs"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "name": "Comedy Scenes"
+                },
+                {
+                    "time": "09:00 - 10:00",
+                    "name": "Tamil Movie Songs"
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "name": "Re-telecast of previous day live program"
+                },
+                {
+                    "time": "12:30 PM - 01:30 PM",
+                    "name": "Badaga Songs"
+                },
+                {
+                    "time": "01:30 PM - 04:00 PM",
+                    "name": "Movie"
+                },
+                {
+                    "time": "04:00 PM - 04:30 PM",
+                    "name": "Cartoon Time"
+                },
+                {
+                    "time": "04:30 PM - 05:30 PM",
+                    "name": "Istapattavaka"
+                },
+                {
+                    "time": "05:30 PM - 06:30 PM",
+                    "name": "Muthuna Kadhe"
+                },
+                {
+                    "time": "06:30 PM - 07:30 PM",
+                    "name": "Maduve Mane"
+                },
+                {
+                    "time": "07:30 PM - 09:30 PM",
+                    "name": "Naakubettadha Kadhey"
+                }
+            ] 
+        },
+        {
+            "day": "monday",
+            "dayOfWeek": 1,
+            "program": [
+                {
+                    "time": "05:30 - 06:30",
+                    "name": "Tamil Bakthi Songs"
+                },
+                {
+                    "time": "06:30 - 07:30",
+                    "name": "Badaga Bakthi Songs"
+                },
+                {
+                    "time": "07:30 - 08:30",
+                    "name": "Badaga Adi Songs"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "name": "Comedy Scenes"
+                },
+                {
+                    "time": "09:00 - 10:00",
+                    "name": "Tamil Movie Songs"
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "name": "Re-telecast of previous day live program"
+                },
+                {
+                    "time": "12:30 PM - 01:30 PM",
+                    "name": "Badaga Songs"
+                },
+                {
+                    "time": "01:30 PM - 04:00 PM",
+                    "name": "Movie"
+                },
+                {
+                    "time": "04:00 PM - 04:30 PM",
+                    "name": "Cartoon Time"
+                },
+                {
+                    "time": "04:30 PM - 05:30 PM",
+                    "name": "Istapattavaka"
+                },
+                {
+                    "time": "05:30 PM - 06:30 PM",
+                    "name": "Bakthi Paadalgal"
+                },
+                {
+                    "time": "06:30 PM - 07:30 PM",
+                    "name": "Aanmeegam"
+                },
+                {
+                    "time": "07:30 PM - 08:30 PM",
+                    "name": "Ivarudan Indru"
+                },
+                {
+                    "time": "08:30 PM - 09:30 PM",
+                    "name": "Nanga Maathu"
+                }
+            ] 
+        },
+        {
+            "day": "tuesday",
+            "dayOfWeek": 2,
+            "program": [
+                {
+                    "time": "05:30 - 06:30",
+                    "name": "Tamil Bakthi Songs"
+                },
+                {
+                    "time": "06:30 - 07:30",
+                    "name": "Badaga Bakthi Songs"
+                },
+                {
+                    "time": "07:30 - 08:30",
+                    "name": "Badaga Adi Songs"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "name": "Comedy Scenes"
+                },
+                {
+                    "time": "09:00 - 10:00",
+                    "name": "Tamil Movie Songs"
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "name": "Re-telecast of previous day live program"
+                },
+                {
+                    "time": "12:30 PM - 01:30 PM",
+                    "name": "Badaga Songs"
+                },
+                {
+                    "time": "01:30 PM - 04:00 PM",
+                    "name": "Movie"
+                },
+                {
+                    "time": "04:00 PM - 04:30 PM",
+                    "name": "Cartoon Time"
+                },
+                {
+                    "time": "04:30 PM - 05:30 PM",
+                    "name": "Istapattavaka"
+                },
+                {
+                    "time": "05:30 PM - 06:30 PM",
+                    "name": "Muthuna Kadhe"
+                },
+                {
+                    "time": "06:30 PM - 07:30 PM",
+                    "name": "Paduvor Padalam"
+                },
+                {
+                    "time": "07:30 PM - 08:30 PM",
+                    "name": "Mamoole"
+                },
+                {
+                    "time": "08:30 PM - 09:30 PM",
+                    "name": "Tharaku Jama"
+                }
+            ] 
+        }
+        ,{
+            "day": "wednesday",
+            "dayOfWeek": 3,
+            "program": [
+                {
+                    "time": "05:30 - 06:30",
+                    "name": "Tamil Bakthi Songs"
+                },
+                {
+                    "time": "06:30 - 07:30",
+                    "name": "Badaga Bakthi Songs"
+                },
+                {
+                    "time": "07:30 - 08:30",
+                    "name": "Badaga Adi Songs"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "name": "Comedy Scenes"
+                },
+                {
+                    "time": "09:00 - 10:00",
+                    "name": "Tamil Movie Songs"
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "name": "Re-telecast of previous day live program"
+                },
+                {
+                    "time": "12:30 PM - 01:30 PM",
+                    "name": "Badaga Songs"
+                },
+                {
+                    "time": "01:30 PM - 04:00 PM",
+                    "name": "Movie"
+                },
+                {
+                    "time": "04:00 PM - 04:30 PM",
+                    "name": "Cartoon Time"
+                },
+                {
+                    "time": "04:30 PM - 05:30 PM",
+                    "name": "Istapattavaka"
+                },
+                {
+                    "time": "05:30 PM - 06:30 PM",
+                    "name": "Muthuna Kadhe"
+                },
+                {
+                    "time": "06:30 PM - 07:30 PM",
+                    "name": "Mukiastharu"
+                },
+                {
+                    "time": "07:30 PM - 08:30 PM",
+                    "name": "Unarvugalodu Uraiyaduvom"
+                },
+                {
+                    "time": "08:30 PM - 09:30 PM",
+                    "name": "Kadhey Yena?"
+                }
+            ] 
+        },
+        {
+            "day": "thursday",
+            "dayOfWeek": 4,
+            "program": [
+                {
+                    "time": "05:30 - 06:30",
+                    "name": "Tamil Bakthi Songs"
+                },
+                {
+                    "time": "06:30 - 07:30",
+                    "name": "Badaga Bakthi Songs"
+                },
+                {
+                    "time": "07:30 - 08:30",
+                    "name": "Badaga Adi Songs"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "name": "Comedy Scenes"
+                },
+                {
+                    "time": "09:00 - 10:00",
+                    "name": "Tamil Movie Songs"
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "name": "Re-telecast of previous day live program"
+                },
+                {
+                    "time": "12:30 PM - 01:30 PM",
+                    "name": "Badaga Songs"
+                },
+                {
+                    "time": "01:30 PM - 04:00 PM",
+                    "name": "Movie"
+                },
+                {
+                    "time": "04:00 PM - 04:30 PM",
+                    "name": "Cartoon Time"
+                },
+                {
+                    "time": "04:30 PM - 05:30 PM",
+                    "name": "Istapattavaka"
+                },
+                {
+                    "time": "05:30 PM - 06:30 PM",
+                    "name": "Muthuna Kadhe"
+                },
+                {
+                    "time": "06:30 PM - 07:30 PM",
+                    "name": "Mamoole Kadhey"
+                },
+                {
+                    "time": "07:30 PM - 08:30 PM",
+                    "name": "Unnal Mudiyum"
+                },
+                {
+                    "time": "08:30 PM - 09:30 PM",
+                    "name": "Comedy Time"
+                }
+            ] 
+        },
+        {
+            "day": "friday",
+            "dayOfWeek": 5,
+            "program": [
+                {
+                    "time": "05:30 - 06:30",
+                    "name": "Tamil Bakthi Songs"
+                },
+                {
+                    "time": "06:30 - 07:30",
+                    "name": "Badaga Bakthi Songs"
+                },
+                {
+                    "time": "07:30 - 08:30",
+                    "name": "Badaga Adi Songs"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "name": "Comedy Scenes"
+                },
+                {
+                    "time": "09:00 - 10:00",
+                    "name": "Tamil Movie Songs"
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "name": "Re-telecast of previous day live program"
+                },
+                {
+                    "time": "12:30 PM - 01:30 PM",
+                    "name": "Badaga Songs"
+                },
+                {
+                    "time": "01:30 PM - 04:00 PM",
+                    "name": "Movie"
+                },
+                {
+                    "time": "04:00 PM - 04:30 PM",
+                    "name": "Cartoon Time"
+                },
+                {
+                    "time": "04:30 PM - 05:30 PM",
+                    "name": "Istapattavaka"
+                },
+                {
+                    "time": "05:30 PM - 06:30 PM",
+                    "name": "Muthuna Kadhe"
+                },
+                {
+                    "time": "06:30 PM - 07:30 PM",
+                    "name": "Ninga Manasu"
+                },
+                {
+                    "time": "07:30 PM - 08:30 PM",
+                    "name": "Mathu Kadhey"
+                },
+                {
+                    "time": "08:30 PM - 09:30 PM",
+                    "name": "Puthagam Pesugirathu"
+                }
+            ] 
+        },
+        {
+            "day": "saturday",
+            "dayOfWeek": 6,
+            "program": [
+                {
+                    "time": "05:30 - 06:30",
+                    "name": "Tamil Bakthi Songs"
+                },
+                {
+                    "time": "06:30 - 07:30",
+                    "name": "Badaga Bakthi Songs"
+                },
+                {
+                    "time": "07:30 - 08:30",
+                    "name": "Badaga Adi Songs"
+                },
+                {
+                    "time": "08:30 - 09:00",
+                    "name": "Comedy Scenes"
+                },
+                {
+                    "time": "09:00 - 10:00",
+                    "name": "Tamil Movie Songs"
+                },
+                {
+                    "time": "10:00 - 12:30",
+                    "name": "Re-telecast of previous day live program"
+                },
+                {
+                    "time": "12:30 PM - 01:30 PM",
+                    "name": "Badaga Songs"
+                },
+                {
+                    "time": "01:30 PM - 04:00 PM",
+                    "name": "Movie"
+                },
+                {
+                    "time": "04:00 PM - 04:30 PM",
+                    "name": "Cartoon Time"
+                },
+                {
+                    "time": "04:30 PM - 05:30 PM",
+                    "name": "Istapattavaka"
+                },
+                {
+                    "time": "05:30 PM - 06:30 PM",
+                    "name": "Muthuna Kadhe"
+                },
+                {
+                    "time": "06:30 PM - 07:30 PM",
+                    "name": "Naakubetta(ga)dha Sudhi"
+                },
+                {
+                    "time": "07:30 PM - 08:30 PM",
+                    "name": "Picture Live"
+                },
+                {
+                    "time": "08:30 PM - 09:30 PM",
+                    "name": "Special Live Program"
+                }
+            ] 
+        }
+    ]
+}

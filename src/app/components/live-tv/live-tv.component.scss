@@ -1,0 +1,16 @@
+.nbtv-livetv-iframe-portrait {
+    width: 100vw;
+    /* set height based on the width in portait mode*/
+    height: calc((9/16)* 100vw); 
+    border: 0;
+    margin: auto;
+}
+
+.nbtv-livetv-iframe-landscape {
+    width: 100vw;
+    height: 100vh;
+}
+
+.portrait-mode-center {
+    padding-top: 35%;
+}
