@@ -1,18 +1,27 @@
 import { OutgoingEvent } from './types/outgoing-event';
 import { Injectable } from '@angular/core';
 import { OutgoingEventType } from './types/outgoing-event-type';
+import { BehaviorSubject, Observable, Subject } from 'rxjs';
 
 import { CallNumber } from '@awesome-cordova-plugins/call-number/ngx';
 import { Browser } from '@capacitor/browser';
-
+import { EmailComposer } from '@awesome-cordova-plugins/email-composer/ngx';
 
 
 @Injectable({
   providedIn: 'root'
 })
 export class AppService {
+  private fullscreensync = new Subject<any>();
+  constructor(private callNumber: CallNumber, private emailComposer: EmailComposer) { }
 
-  constructor(private callNumber: CallNumber) { }
+  setfullscreensync(row:any) {
+    this.fullscreensync.next(row);
+  }
+
+  getfullscreensync(): Observable<any> {
+    return this.fullscreensync.asObservable();
+  }
 
   handleOutgoingEvent(outgoingEvent: OutgoingEvent): boolean {
     console.dir(outgoingEvent);
@@ -20,6 +29,7 @@ export class AppService {
 
     switch(outgoingEvent.type) {
       case OutgoingEventType.EMAIL: {
+      console.log('commmmm 1');
         retValue = this.invokeEmail(outgoingEvent.value);
         break;
       }
@@ -65,19 +75,24 @@ export class AppService {
 
   private invokeEmail(value: string) {
     const val = false;
+    console.log('commmmm 2');
     const email = {
       to: value,
       subject: 'Nakkubetta TV mobile app Feedback',
       body: 'I would like to share feedback about the Nakkubetta TV mobile app',
       isHtml: true
     };
-    /** TODO: fix this
-    this.emailComposer.isAvailable().then((available => {
-      if(available) {
-        this.emailComposer.open(email);
-      }
-    }));
-     */
+    console.log('twat  2');
+   
+    this.emailComposer.isAvailable().then((available: boolean) => {
+    console.log('twat  1');
+    console.log(available);
+       if(available) {
+          this.emailComposer.open(email);
+         // Now we know we can send an email, calls hasClient and hasAccount
+         // Not specifying an app will return true if at least one email client is configured
+       }
+      });
     return val;
   }
 

@@ -1,18 +1,24 @@
 <!-- iframe video player will be shown only when source 2/3 is selected. Source 1 will play hls file -->
-<ion-grid class="portrait-mode-center" *ngIf="selectedSource !== null && isPortait === true ">
+<ion-grid class=""  [ngClass]="(isPortait === true)?'portrait-mode-center':'landscape-mode-center p-0'" *ngIf="selectedSource !== null">
+  <div *ngIf="isPortait === false" class="fullscreen-toolbar">
+        <ion-icon name="close-circle" color="light" (click)="changeToPortait()"></ion-icon>
+  </div>
   <ion-row>
-    <ion-col>
-      <ion-item>
-        <iframe id="nbtv_video_player" #video_player_iframe [src]="getSanitizedURL(selectedSource.url)" class="nbtv-livetv-iframe-portrait" >
+    <ion-col class="p-0">
+      <ion-item class="p-0 fill-width">
+        <iframe id="nbtv_video_player" #video_player_iframe [src]="getSanitizedURL(selectedSource.url)" frameborder="0" [ngClass]="(isPortait === true)?'nbtv-livetv-iframe-portrait':'nbtv-livetv-iframe-landscape'" allowfullscreen>
         </iframe>
+
+
       </ion-item>
     </ion-col>
   </ion-row>
-  <ion-row>
+  <ion-row *ngIf="isPortait === true"> 
     <ion-col>
       <ion-button expand="block" color="tertiary" (click)="changeToLandscape()" color="light">
         View in Full Screen<ion-icon name="expand-outline" color="dark"></ion-icon>
       </ion-button>
     </ion-col>
   </ion-row>
+
 </ion-grid>

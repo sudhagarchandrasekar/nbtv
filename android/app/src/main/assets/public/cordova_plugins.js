@@ -53,7 +53,7 @@
     {
       "mx.ferreyra.callnumber": "0.0.2",
       "cordova-plugin-appavailability": "0.4.2",
-      "cordova-plugin-email-composer": "0.10.0",
+      "cordova-plugin-email-composer": "0.9.2",
       "cordova-plugin-screen-orientation": "3.0.2",
       "cordova-plugin-streaming-media": "2.3.0",
       "es6-promise-plugin": "4.2.2"

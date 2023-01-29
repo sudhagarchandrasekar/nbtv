@@ -7,7 +7,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { ScreenOrientation } from '@awesome-cordova-plugins/screen-orientation/ngx';
 import { StreamingMedia, StreamingVideoOptions } from '@awesome-cordova-plugins/streaming-media/ngx';
 import { Platform } from '@ionic/angular';
-
+import { AppService } from './../../app.service';
 
 @Component({
   selector: 'app-live-tv',
@@ -30,14 +30,16 @@ export class LiveTvComponent implements OnInit {
     private screenOrientation: ScreenOrientation,
     private streamingMedia: StreamingMedia,
     private toastController: ToastController,
-    private platform: Platform) { }
+    private platform: Platform,
+    private appService: AppService) { }
 
   ngOnInit() {
     console.log('ngOnInit');
     this.appData = this.appStateService.getAppData();
     // lock to portrait mode initially
+    this.selectedSource = this.appData.liveTvURL[1];
     this.changeToPortait();
-    this.setUpLiveTVPlayer();
+    //this.setUpLiveTVPlayer();
     // this.changeLiveTVSource();
     this.initializeScreenOrientation();
   }
@@ -57,7 +59,8 @@ export class LiveTvComponent implements OnInit {
   setUpLiveTVPlayer() {
     console.dir(this.selectedSource);
     if(this.selectedSource.isHLS === true && this.isPortait === false) {
-      this.setUpHlsSource();
+      //this.setUpHlsSource();
+      this.setUpIFrameSource();
     }
     else if(this.selectedSource.isHLS === false && this.isPortait === true) {
       this.setUpIFrameSource();
@@ -103,17 +106,20 @@ export class LiveTvComponent implements OnInit {
   /** Screen Orientation changes */
   changeToLandscape() {
     this.isPortait = false;
-    this.selectedSource = this.appData.liveTvURL[0];
+    this.appService.setfullscreensync(1);
+    //this.selectedSource = this.appData.liveTvURL[1];
     if(this.platform.is('android')) {
       this.screenOrientation.unlock();
       this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.LANDSCAPE);
     }
-    this.setUpLiveTVPlayer();
+    //this.setUpLiveTVPlayer();
   }
 
   changeToPortait() {
+  console.log(" comming tr");
     this.isPortait = true;
-    this.selectedSource = this.appData.liveTvURL[1];
+    this.appService.setfullscreensync(0);
+    //this.selectedSource = this.appData.liveTvURL[1];
     if(this.platform.is('android')) {
       this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.PORTRAIT);
     }
@@ -142,7 +148,7 @@ export class LiveTvComponent implements OnInit {
           this.changeToPortait();
         }
         console.dir(this.screenOrientation.type);
-        this.setUpLiveTVPlayer();
+        //this.setUpLiveTVPlayer();
       }
     });
   }

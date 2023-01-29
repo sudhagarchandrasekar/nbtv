@@ -11,8 +11,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "TabsPageRoutingModule": function() { return /* binding */ TabsPageRoutingModule; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 4001);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/router */ 3252);
@@ -65,8 +65,8 @@ var routes = [{
   pathMatch: 'full'
 }];
 
-var TabsPageRoutingModule = /*#__PURE__*/(0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function TabsPageRoutingModule() {
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, TabsPageRoutingModule);
+var TabsPageRoutingModule = /*#__PURE__*/(0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function TabsPageRoutingModule() {
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, TabsPageRoutingModule);
 });
 
 TabsPageRoutingModule = (0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_4__.NgModule)({
@@ -86,8 +86,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "TabsPageModule": function() { return /* binding */ TabsPageModule; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ionic/angular */ 8099);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 4001);
@@ -107,8 +107,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var TabsPageModule = /*#__PURE__*/(0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function TabsPageModule() {
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, TabsPageModule);
+var TabsPageModule = /*#__PURE__*/(0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function TabsPageModule() {
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, TabsPageModule);
 });
 
 TabsPageModule = (0,tslib__WEBPACK_IMPORTED_MODULE_5__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_6__.NgModule)({
@@ -129,12 +129,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "TabsPage": function() { return /* binding */ TabsPage; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_tabs_page_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./tabs.page.html */ 8711);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! tslib */ 8806);
+/* harmony import */ var _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_tabs_page_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./tabs.page.html */ 8711);
 /* harmony import */ var _tabs_page_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tabs.page.scss */ 8758);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../app.service */ 8198);
 
 
 
@@ -142,17 +143,32 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var TabsPage = /*#__PURE__*/(0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function TabsPage() {
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, TabsPage);
+
+var TabsPage = /*#__PURE__*/(0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function TabsPage(appService) {
+  var _this = this;
+
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, TabsPage);
+
+  this.appService = appService;
+  this.fullscreen = false;
+  this.appService.getfullscreensync().subscribe(function (changed) {
+    if (changed == 1) {
+      _this.fullscreen = true;
+    } else {
+      _this.fullscreen = false;
+    }
+  });
 });
 
 TabsPage.ctorParameters = function () {
-  return [];
+  return [{
+    type: _app_service__WEBPACK_IMPORTED_MODULE_4__.AppService
+  }];
 };
 
-TabsPage = (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.Component)({
+TabsPage = (0,tslib__WEBPACK_IMPORTED_MODULE_5__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_6__.Component)({
   selector: 'app-tabs',
-  template: _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_tabs_page_html__WEBPACK_IMPORTED_MODULE_2__["default"],
+  template: _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_tabs_page_html__WEBPACK_IMPORTED_MODULE_2__["default"],
   styles: [_tabs_page_scss__WEBPACK_IMPORTED_MODULE_3__]
 })], TabsPage);
 
@@ -166,7 +182,7 @@ TabsPage = (0,tslib__WEBPACK_IMPORTED_MODULE_4__.__decorate)([(0,_angular_core__
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-tabs>\r\n\r\n  <ion-tab-bar slot=\"bottom\">\r\n    <ion-tab-button tab=\"tab1\">\r\n      <ion-icon name=\"tv-sharp\" color=\"primary\"></ion-icon>\r\n      <ion-label color=\"dark\">Live TV</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab4\">\r\n      <ion-icon name=\"radio\" color=\"primary\"></ion-icon>\r\n      <ion-label color=\"dark\">Radio</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab2\">\r\n      <ion-icon name=\"calendar-number-sharp\" color=\"primary\"></ion-icon>\r\n      <ion-label color=\"dark\">Schedule</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab3\">\r\n      <ion-icon name=\"card-outline\" color=\"primary\"></ion-icon>\r\n      <ion-label class=\"tab-font\" color=\"dark\">Contact</ion-label>\r\n    </ion-tab-button>\r\n  </ion-tab-bar>\r\n\r\n</ion-tabs>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-tabs>\r\n\r\n  <ion-tab-bar slot=\"bottom\" *ngIf=\"!fullscreen\">\r\n    <ion-tab-button tab=\"tab1\">\r\n      <ion-icon name=\"tv-sharp\" color=\"primary\"></ion-icon>\r\n      <ion-label color=\"dark\">Live TV</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab4\">\r\n      <ion-icon name=\"radio\" color=\"primary\"></ion-icon>\r\n      <ion-label color=\"dark\">Radio</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab2\">\r\n      <ion-icon name=\"calendar-number-sharp\" color=\"primary\"></ion-icon>\r\n      <ion-label color=\"dark\">Schedule</ion-label>\r\n    </ion-tab-button>\r\n\r\n    <ion-tab-button tab=\"tab3\">\r\n      <ion-icon name=\"card-outline\" color=\"primary\"></ion-icon>\r\n      <ion-label class=\"tab-font\" color=\"dark\">Contact</ion-label>\r\n    </ion-tab-button>\r\n  </ion-tab-bar>\r\n\r\n</ion-tabs>\r\n");
 
 /***/ }),
 

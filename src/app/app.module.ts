@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NbtvCommonModule } from './components/nbtv-common/nbtv-common.module';
 
 import { CallNumber } from '@awesome-cordova-plugins/call-number/ngx';
+import { EmailComposer } from '@awesome-cordova-plugins/email-composer/ngx';
 import { ScreenOrientation } from '@awesome-cordova-plugins/screen-orientation/ngx';
 import { StreamingMedia } from '@awesome-cordova-plugins/streaming-media/ngx';
 
@@ -21,7 +22,7 @@ import { StreamingMedia } from '@awesome-cordova-plugins/streaming-media/ngx';
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FontAwesomeModule,
     HttpClientModule,NbtvCommonModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-    CallNumber, ScreenOrientation, StreamingMedia],
+    CallNumber, ScreenOrientation, StreamingMedia, EmailComposer],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

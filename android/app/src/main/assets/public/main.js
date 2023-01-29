@@ -11,8 +11,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppComponentService": function() { return /* binding */ AppComponentService; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 6781);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 4001);
@@ -24,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponentService = /*#__PURE__*/function () {
   function AppComponentService(httpClient) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppComponentService);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppComponentService);
 
     this.httpClient = httpClient;
   }
@@ -34,7 +34,7 @@ var AppComponentService = /*#__PURE__*/function () {
    */
 
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppComponentService, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppComponentService, [{
     key: "fetchAppData",
     value: function fetchAppData() {
       return this.httpClient.get('./assets/data/app_data.json', {
@@ -80,8 +80,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppRoutingModule": function() { return /* binding */ AppRoutingModule; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 4001);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ 3252);
@@ -99,8 +99,8 @@ var routes = [{
   }
 }];
 
-var AppRoutingModule = /*#__PURE__*/(0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function AppRoutingModule() {
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AppRoutingModule);
+var AppRoutingModule = /*#__PURE__*/(0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function AppRoutingModule() {
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AppRoutingModule);
 });
 
 AppRoutingModule = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_3__.NgModule)({
@@ -124,8 +124,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppStateService": function() { return /* binding */ AppStateService; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 4001);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ 4008);
@@ -137,7 +137,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppStateService = /*#__PURE__*/function () {
   function AppStateService() {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppStateService);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppStateService);
 
     this.appData = null;
     this.programSchedule = [];
@@ -145,7 +145,7 @@ var AppStateService = /*#__PURE__*/function () {
     this.liveTVSourceSubject = new rxjs__WEBPACK_IMPORTED_MODULE_2__.Subject();
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppStateService, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppStateService, [{
     key: "getAppData",
     value: function getAppData() {
       return this.appData;
@@ -209,19 +209,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppComponent": function() { return /* binding */ AppComponent; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_app_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./app.component.html */ 5158);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! tslib */ 8806);
+/* harmony import */ var _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_app_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./app.component.html */ 5158);
 /* harmony import */ var _app_component_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component.scss */ 836);
 /* harmony import */ var _app_state_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app-state.service */ 2548);
-/* harmony import */ var _node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./../../node_modules/@fortawesome/free-solid-svg-icons/faTv.d */ 6043);
-/* harmony import */ var _node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 4001);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ionic/angular */ 8099);
-/* harmony import */ var _app_component_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app-component.service */ 6354);
+/* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.service */ 8198);
+/* harmony import */ var _node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../../node_modules/@fortawesome/free-solid-svg-icons/faTv.d */ 6043);
+/* harmony import */ var _node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ionic/angular */ 8099);
+/* harmony import */ var _app_component_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./app-component.service */ 6354);
+
 
 
 
@@ -235,20 +237,22 @@ __webpack_require__.r(__webpack_exports__);
  // import { faTv} from '@fortawesome/fontawesome-free';
 
 var AppComponent = /*#__PURE__*/function () {
-  function AppComponent(menu, appComponentService, toastController, appStateService) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppComponent);
+  function AppComponent(menu, appComponentService, toastController, appStateService, appService) {
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppComponent);
 
     this.menu = menu;
     this.appComponentService = appComponentService;
     this.toastController = toastController;
     this.appStateService = appStateService;
-    this.faTVIcon = _node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_7__.faTv;
+    this.appService = appService;
+    this.faTVIcon = _node_modules_fortawesome_free_solid_svg_icons_faTv_d__WEBPACK_IMPORTED_MODULE_8__.faTv;
     this.nbtvLogoSrc = '../assets/img/logo_contact_us.png';
     this.appData = null;
     this.isDataInitialized = false;
+    this.fullscreen = false;
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppComponent, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppComponent, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       var _this = this;
@@ -269,6 +273,13 @@ var AppComponent = /*#__PURE__*/function () {
 
         _this.showErrorMessage();
       });
+      this.appService.getfullscreensync().subscribe(function (changed) {
+        if (changed == 1) {
+          _this.fullscreen = true;
+        } else {
+          _this.fullscreen = false;
+        }
+      });
     } // opens the side navigation when the hamburger menu icon is clicked in the
     // toolbar
 
@@ -282,9 +293,9 @@ var AppComponent = /*#__PURE__*/function () {
   }, {
     key: "showErrorMessage",
     value: function showErrorMessage() {
-      return (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
+      return (0,tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
         var toast;
-        return D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
+        return D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -315,19 +326,21 @@ var AppComponent = /*#__PURE__*/function () {
 
 AppComponent.ctorParameters = function () {
   return [{
-    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_9__.MenuController
+    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_10__.MenuController
   }, {
-    type: _app_component_service__WEBPACK_IMPORTED_MODULE_6__.AppComponentService
+    type: _app_component_service__WEBPACK_IMPORTED_MODULE_7__.AppComponentService
   }, {
-    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_9__.ToastController
+    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_10__.ToastController
   }, {
     type: _app_state_service__WEBPACK_IMPORTED_MODULE_5__.AppStateService
+  }, {
+    type: _app_service__WEBPACK_IMPORTED_MODULE_6__.AppService
   }];
 };
 
-AppComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_10__.Component)({
+AppComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_9__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_11__.Component)({
   selector: 'app-root',
-  template: _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_app_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
+  template: _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_app_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
   styles: [_app_component_scss__WEBPACK_IMPORTED_MODULE_4__]
 })], AppComponent);
 
@@ -345,21 +358,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": function() { return /* binding */ AppModule; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ 4001);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/platform-browser */ 6219);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 3252);
-/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ 8249);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @ionic/angular */ 8099);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! tslib */ 8806);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/platform-browser */ 6219);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/router */ 3252);
+/* harmony import */ var _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @fortawesome/angular-fontawesome */ 8249);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @ionic/angular */ 8099);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ 3696);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ 2050);
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/common/http */ 6781);
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/common/http */ 6781);
 /* harmony import */ var _components_nbtv_common_nbtv_common_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/nbtv-common/nbtv-common.module */ 4733);
-/* harmony import */ var _awesome_cordova_plugins_call_number_ngx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @awesome-cordova-plugins/call-number/ngx */ 6143);
-/* harmony import */ var _awesome_cordova_plugins_screen_orientation_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @awesome-cordova-plugins/screen-orientation/ngx */ 4553);
-/* harmony import */ var _awesome_cordova_plugins_streaming_media_ngx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @awesome-cordova-plugins/streaming-media/ngx */ 9196);
+/* harmony import */ var _awesome_cordova_plugins_call_number_ngx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @awesome-cordova-plugins/call-number/ngx */ 3831);
+/* harmony import */ var _awesome_cordova_plugins_email_composer_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @awesome-cordova-plugins/email-composer/ngx */ 6097);
+/* harmony import */ var _awesome_cordova_plugins_screen_orientation_ngx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @awesome-cordova-plugins/screen-orientation/ngx */ 4553);
+/* harmony import */ var _awesome_cordova_plugins_streaming_media_ngx__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @awesome-cordova-plugins/streaming-media/ngx */ 9196);
 
 
 
@@ -376,18 +390,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var AppModule = /*#__PURE__*/(0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function AppModule() {
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AppModule);
+
+var AppModule = /*#__PURE__*/(0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function AppModule() {
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, AppModule);
 });
 
-AppModule = (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_9__.NgModule)({
+AppModule = (0,tslib__WEBPACK_IMPORTED_MODULE_9__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_10__.NgModule)({
   declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__.AppComponent],
   entryComponents: [],
-  imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_10__.BrowserModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_11__.IonicModule.forRoot(), _app_routing_module__WEBPACK_IMPORTED_MODULE_2__.AppRoutingModule, _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_12__.FontAwesomeModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_13__.HttpClientModule, _components_nbtv_common_nbtv_common_module__WEBPACK_IMPORTED_MODULE_4__.NbtvCommonModule],
+  imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_11__.BrowserModule, _ionic_angular__WEBPACK_IMPORTED_MODULE_12__.IonicModule.forRoot(), _app_routing_module__WEBPACK_IMPORTED_MODULE_2__.AppRoutingModule, _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_13__.FontAwesomeModule, _angular_common_http__WEBPACK_IMPORTED_MODULE_14__.HttpClientModule, _components_nbtv_common_nbtv_common_module__WEBPACK_IMPORTED_MODULE_4__.NbtvCommonModule],
   providers: [{
-    provide: _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouteReuseStrategy,
-    useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_11__.IonicRouteStrategy
-  }, _awesome_cordova_plugins_call_number_ngx__WEBPACK_IMPORTED_MODULE_5__.CallNumber, _awesome_cordova_plugins_screen_orientation_ngx__WEBPACK_IMPORTED_MODULE_6__.ScreenOrientation, _awesome_cordova_plugins_streaming_media_ngx__WEBPACK_IMPORTED_MODULE_7__.StreamingMedia],
+    provide: _angular_router__WEBPACK_IMPORTED_MODULE_15__.RouteReuseStrategy,
+    useClass: _ionic_angular__WEBPACK_IMPORTED_MODULE_12__.IonicRouteStrategy
+  }, _awesome_cordova_plugins_call_number_ngx__WEBPACK_IMPORTED_MODULE_5__.CallNumber, _awesome_cordova_plugins_screen_orientation_ngx__WEBPACK_IMPORTED_MODULE_7__.ScreenOrientation, _awesome_cordova_plugins_streaming_media_ngx__WEBPACK_IMPORTED_MODULE_8__.StreamingMedia, _awesome_cordova_plugins_email_composer_ngx__WEBPACK_IMPORTED_MODULE_6__.EmailComposer],
   bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__.AppComponent]
 })], AppModule);
 
@@ -405,15 +420,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppService": function() { return /* binding */ AppService; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tslib */ 8806);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ 4001);
 /* harmony import */ var _types_outgoing_event_type__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./types/outgoing-event-type */ 5346);
-/* harmony import */ var _awesome_cordova_plugins_call_number_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @awesome-cordova-plugins/call-number/ngx */ 6143);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! rxjs */ 4008);
+/* harmony import */ var _awesome_cordova_plugins_call_number_ngx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @awesome-cordova-plugins/call-number/ngx */ 3831);
 /* harmony import */ var _capacitor_browser__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @capacitor/browser */ 9337);
+/* harmony import */ var _awesome_cordova_plugins_email_composer_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @awesome-cordova-plugins/email-composer/ngx */ 6097);
+
+
 
 
 
@@ -424,13 +443,25 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AppService = /*#__PURE__*/function () {
-  function AppService(callNumber) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppService);
+  function AppService(callNumber, emailComposer) {
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, AppService);
 
     this.callNumber = callNumber;
+    this.emailComposer = emailComposer;
+    this.fullscreensync = new rxjs__WEBPACK_IMPORTED_MODULE_7__.Subject();
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppService, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(AppService, [{
+    key: "setfullscreensync",
+    value: function setfullscreensync(row) {
+      this.fullscreensync.next(row);
+    }
+  }, {
+    key: "getfullscreensync",
+    value: function getfullscreensync() {
+      return this.fullscreensync.asObservable();
+    }
+  }, {
     key: "handleOutgoingEvent",
     value: function handleOutgoingEvent(outgoingEvent) {
       console.dir(outgoingEvent);
@@ -439,6 +470,7 @@ var AppService = /*#__PURE__*/function () {
       switch (outgoingEvent.type) {
         case _types_outgoing_event_type__WEBPACK_IMPORTED_MODULE_3__.OutgoingEventType.EMAIL:
           {
+            console.log('commmmm 1');
             retValue = this.invokeEmail(outgoingEvent.value);
             break;
           }
@@ -487,9 +519,9 @@ var AppService = /*#__PURE__*/function () {
   }, {
     key: "invokeBrowser",
     value: function invokeBrowser(value) {
-      return (0,tslib__WEBPACK_IMPORTED_MODULE_6__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
+      return (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
         var val;
-        return D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
+        return D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -513,21 +545,27 @@ var AppService = /*#__PURE__*/function () {
   }, {
     key: "invokeEmail",
     value: function invokeEmail(value) {
+      var _this = this;
+
       var val = false;
+      console.log('commmmm 2');
       var email = {
         to: value,
         subject: 'Nakkubetta TV mobile app Feedback',
         body: 'I would like to share feedback about the Nakkubetta TV mobile app',
         isHtml: true
       };
-      /** TODO: fix this
-      this.emailComposer.isAvailable().then((available => {
-        if(available) {
-          this.emailComposer.open(email);
-        }
-      }));
-       */
+      console.log('twat  2');
+      this.emailComposer.isAvailable().then(function (available) {
+        console.log('twat  1');
+        console.log(available);
 
+        if (available) {
+          _this.emailComposer.open(email); // Now we know we can send an email, calls hasClient and hasAccount
+          // Not specifying an app will return true if at least one email client is configured
+
+        }
+      });
       return val;
     }
   }]);
@@ -538,10 +576,12 @@ var AppService = /*#__PURE__*/function () {
 AppService.ctorParameters = function () {
   return [{
     type: _awesome_cordova_plugins_call_number_ngx__WEBPACK_IMPORTED_MODULE_4__.CallNumber
+  }, {
+    type: _awesome_cordova_plugins_email_composer_ngx__WEBPACK_IMPORTED_MODULE_6__.EmailComposer
   }];
 };
 
-AppService = (0,tslib__WEBPACK_IMPORTED_MODULE_6__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_7__.Injectable)({
+AppService = (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_9__.Injectable)({
   providedIn: 'root'
 })], AppService);
 
@@ -559,19 +599,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "LiveTvComponent": function() { return /* binding */ LiveTvComponent; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_live_tv_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./live-tv.component.html */ 1888);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! tslib */ 8806);
+/* harmony import */ var _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_live_tv_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./live-tv.component.html */ 1888);
 /* harmony import */ var _live_tv_component_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./live-tv.component.scss */ 7003);
-/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @ionic/angular */ 8099);
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @ionic/angular */ 8099);
 /* harmony import */ var _app_state_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../app-state.service */ 2548);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ 4001);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/platform-browser */ 6219);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/core */ 4001);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/platform-browser */ 6219);
 /* harmony import */ var _awesome_cordova_plugins_screen_orientation_ngx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @awesome-cordova-plugins/screen-orientation/ngx */ 4553);
 /* harmony import */ var _awesome_cordova_plugins_streaming_media_ngx__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @awesome-cordova-plugins/streaming-media/ngx */ 9196);
+/* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./../../app.service */ 8198);
+
 
 
 
@@ -587,8 +629,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var LiveTvComponent = /*#__PURE__*/function () {
-  function LiveTvComponent(appStateService, domSanitizer, screenOrientation, streamingMedia, toastController, platform) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, LiveTvComponent);
+  function LiveTvComponent(appStateService, domSanitizer, screenOrientation, streamingMedia, toastController, platform, appService) {
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, LiveTvComponent);
 
     this.appStateService = appStateService;
     this.domSanitizer = domSanitizer;
@@ -596,6 +638,7 @@ var LiveTvComponent = /*#__PURE__*/function () {
     this.streamingMedia = streamingMedia;
     this.toastController = toastController;
     this.platform = platform;
+    this.appService = appService;
     this.appData = null;
     this.isVideoLoaded = false;
     this.selectedSource = null; // be default open the app in portrait mode
@@ -604,14 +647,15 @@ var LiveTvComponent = /*#__PURE__*/function () {
     this.currentScreenOrientation = 'portrait';
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(LiveTvComponent, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(LiveTvComponent, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       console.log('ngOnInit');
       this.appData = this.appStateService.getAppData(); // lock to portrait mode initially
 
-      this.changeToPortait();
-      this.setUpLiveTVPlayer(); // this.changeLiveTVSource();
+      this.selectedSource = this.appData.liveTvURL[1];
+      this.changeToPortait(); //this.setUpLiveTVPlayer();
+      // this.changeLiveTVSource();
 
       this.initializeScreenOrientation();
     }
@@ -638,7 +682,8 @@ var LiveTvComponent = /*#__PURE__*/function () {
       console.dir(this.selectedSource);
 
       if (this.selectedSource.isHLS === true && this.isPortait === false) {
-        this.setUpHlsSource();
+        //this.setUpHlsSource();
+        this.setUpIFrameSource();
       } else if (this.selectedSource.isHLS === false && this.isPortait === true) {
         this.setUpIFrameSource();
       }
@@ -691,20 +736,20 @@ var LiveTvComponent = /*#__PURE__*/function () {
     key: "changeToLandscape",
     value: function changeToLandscape() {
       this.isPortait = false;
-      this.selectedSource = this.appData.liveTvURL[0];
+      this.appService.setfullscreensync(1); //this.selectedSource = this.appData.liveTvURL[1];
 
       if (this.platform.is('android')) {
         this.screenOrientation.unlock();
         this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.LANDSCAPE);
-      }
+      } //this.setUpLiveTVPlayer();
 
-      this.setUpLiveTVPlayer();
     }
   }, {
     key: "changeToPortait",
     value: function changeToPortait() {
+      console.log(" comming tr");
       this.isPortait = true;
-      this.selectedSource = this.appData.liveTvURL[1];
+      this.appService.setfullscreensync(0); //this.selectedSource = this.appData.liveTvURL[1];
 
       if (this.platform.is('android')) {
         this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.PORTRAIT);
@@ -737,18 +782,16 @@ var LiveTvComponent = /*#__PURE__*/function () {
             _this3.changeToPortait();
           }
 
-          console.dir(_this3.screenOrientation.type);
-
-          _this3.setUpLiveTVPlayer();
+          console.dir(_this3.screenOrientation.type); //this.setUpLiveTVPlayer();
         }
       });
     }
   }, {
     key: "showErrorMessage",
     value: function showErrorMessage() {
-      return (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
+      return (0,tslib__WEBPACK_IMPORTED_MODULE_9__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
         var toast;
-        return D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
+        return D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -781,27 +824,29 @@ LiveTvComponent.ctorParameters = function () {
   return [{
     type: _app_state_service__WEBPACK_IMPORTED_MODULE_5__.AppStateService
   }, {
-    type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_9__.DomSanitizer
+    type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_10__.DomSanitizer
   }, {
     type: _awesome_cordova_plugins_screen_orientation_ngx__WEBPACK_IMPORTED_MODULE_6__.ScreenOrientation
   }, {
     type: _awesome_cordova_plugins_streaming_media_ngx__WEBPACK_IMPORTED_MODULE_7__.StreamingMedia
   }, {
-    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_10__.ToastController
+    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_11__.ToastController
   }, {
-    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_10__.Platform
+    type: _ionic_angular__WEBPACK_IMPORTED_MODULE_11__.Platform
+  }, {
+    type: _app_service__WEBPACK_IMPORTED_MODULE_8__.AppService
   }];
 };
 
 LiveTvComponent.propDecorators = {
   iframeVideoPlayerComponent: [{
-    type: _angular_core__WEBPACK_IMPORTED_MODULE_11__.ViewChild,
+    type: _angular_core__WEBPACK_IMPORTED_MODULE_12__.ViewChild,
     args: ['video_player_iframe']
   }]
 };
-LiveTvComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_8__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_11__.Component)({
+LiveTvComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_9__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_12__.Component)({
   selector: 'app-live-tv',
-  template: _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_live_tv_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
+  template: _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_live_tv_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
   styles: [_live_tv_component_scss__WEBPACK_IMPORTED_MODULE_4__]
 })], LiveTvComponent);
 
@@ -819,10 +864,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "MenuContentComponent": function() { return /* binding */ MenuContentComponent; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_menu_content_component_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./menu-content.component.html */ 3831);
+/* harmony import */ var _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_menu_content_component_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./menu-content.component.html */ 1221);
 /* harmony import */ var _menu_content_component_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu-content.component.scss */ 8446);
 /* harmony import */ var _app_state_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../app-state.service */ 2548);
 /* harmony import */ var _app_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../app.service */ 8198);
@@ -838,14 +883,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var MenuContentComponent = /*#__PURE__*/function () {
   function MenuContentComponent(appService, appStateService) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, MenuContentComponent);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, MenuContentComponent);
 
     this.appService = appService;
     this.appStateService = appStateService;
     this.selectedTVSource = null;
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(MenuContentComponent, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(MenuContentComponent, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       console.dir(this.appData.liveTvURL);
@@ -884,7 +929,7 @@ MenuContentComponent.propDecorators = {
 };
 MenuContentComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_7__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_6__.Component)({
   selector: 'app-menu-content',
-  template: _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_menu_content_component_html__WEBPACK_IMPORTED_MODULE_2__["default"],
+  template: _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_menu_content_component_html__WEBPACK_IMPORTED_MODULE_2__["default"],
   styles: [_menu_content_component_scss__WEBPACK_IMPORTED_MODULE_3__]
 })], MenuContentComponent);
 
@@ -902,8 +947,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "NbtvCommonModule": function() { return /* binding */ NbtvCommonModule; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _live_tv_live_tv_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../live-tv/live-tv.component */ 8372);
 /* harmony import */ var _program_schedule_program_schedule_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../program-schedule/program-schedule.component */ 2363);
@@ -931,8 +976,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var NbtvCommonModule = /*#__PURE__*/(0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function NbtvCommonModule() {
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, NbtvCommonModule);
+var NbtvCommonModule = /*#__PURE__*/(0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__["default"])(function NbtvCommonModule() {
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, NbtvCommonModule);
 });
 
 NbtvCommonModule = (0,tslib__WEBPACK_IMPORTED_MODULE_7__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_8__.NgModule)({
@@ -956,10 +1001,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ProfileComponent": function() { return /* binding */ ProfileComponent; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_profile_component_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./profile.component.html */ 8999);
+/* harmony import */ var _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_profile_component_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./profile.component.html */ 8999);
 /* harmony import */ var _profile_component_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./profile.component.scss */ 8476);
 /* harmony import */ var _types_outgoing_event_type__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../types/outgoing-event-type */ 5346);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/core */ 4001);
@@ -973,12 +1018,12 @@ __webpack_require__.r(__webpack_exports__);
 
 var ProfileComponent = /*#__PURE__*/function () {
   function ProfileComponent() {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProfileComponent);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProfileComponent);
 
     this.profileEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_5__.EventEmitter();
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProfileComponent, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProfileComponent, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       console.dir(this.profile);
@@ -1047,7 +1092,7 @@ ProfileComponent.propDecorators = {
 };
 ProfileComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_6__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_5__.Component)({
   selector: 'app-profile',
-  template: _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_profile_component_html__WEBPACK_IMPORTED_MODULE_2__["default"],
+  template: _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_profile_component_html__WEBPACK_IMPORTED_MODULE_2__["default"],
   styles: [_profile_component_scss__WEBPACK_IMPORTED_MODULE_3__]
 })], ProfileComponent);
 
@@ -1065,12 +1110,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ProgramScheduleComponent": function() { return /* binding */ ProgramScheduleComponent; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_program_schedule_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./program-schedule.component.html */ 5239);
+/* harmony import */ var _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_program_schedule_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./program-schedule.component.html */ 5239);
 /* harmony import */ var _program_schedule_component_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./program-schedule.component.scss */ 4127);
 /* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ionic/angular */ 8099);
 /* harmony import */ var _app_state_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./../../app-state.service */ 2548);
@@ -1089,7 +1134,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ProgramScheduleComponent = /*#__PURE__*/function () {
   function ProgramScheduleComponent(programScheduleService, appStateService, toastController) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProgramScheduleComponent);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProgramScheduleComponent);
 
     this.programScheduleService = programScheduleService;
     this.appStateService = appStateService;
@@ -1101,7 +1146,7 @@ var ProgramScheduleComponent = /*#__PURE__*/function () {
     this.weeklySchedule = [];
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProgramScheduleComponent, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProgramScheduleComponent, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       this.getProgramSchdule();
@@ -1166,9 +1211,9 @@ var ProgramScheduleComponent = /*#__PURE__*/function () {
   }, {
     key: "showErrorMessage",
     value: function showErrorMessage() {
-      return (0,tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
+      return (0,tslib__WEBPACK_IMPORTED_MODULE_7__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
         var toast;
-        return D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
+        return D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -1209,7 +1254,7 @@ ProgramScheduleComponent.ctorParameters = function () {
 
 ProgramScheduleComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_7__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_9__.Component)({
   selector: 'app-program-schedule',
-  template: _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_program_schedule_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
+  template: _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_program_schedule_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
   styles: [_program_schedule_component_scss__WEBPACK_IMPORTED_MODULE_4__]
 })], ProgramScheduleComponent);
 
@@ -1227,8 +1272,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ProgramScheduleService": function() { return /* binding */ ProgramScheduleService; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 6781);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 4001);
@@ -1240,7 +1285,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ProgramScheduleService = /*#__PURE__*/function () {
   function ProgramScheduleService(httpClient) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProgramScheduleService);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProgramScheduleService);
 
     this.httpClient = httpClient;
   }
@@ -1250,7 +1295,7 @@ var ProgramScheduleService = /*#__PURE__*/function () {
    */
 
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProgramScheduleService, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProgramScheduleService, [{
     key: "fetchScheduleList",
     value: function fetchScheduleList() {
       return this.httpClient.get('../../../assets/data/program_schedule.json');
@@ -1339,12 +1384,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "RadioComponent": function() { return /* binding */ RadioComponent; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 3703);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! tslib */ 8806);
-/* harmony import */ var _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_radio_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./radio.component.html */ 6839);
+/* harmony import */ var _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_radio_component_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./radio.component.html */ 6839);
 /* harmony import */ var _radio_component_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./radio.component.scss */ 5984);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ 4001);
 /* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @ionic/angular */ 8099);
@@ -1373,7 +1418,7 @@ swiper__WEBPACK_IMPORTED_MODULE_9__["default"].use([swiper__WEBPACK_IMPORTED_MOD
 
 var RadioComponent = /*#__PURE__*/function () {
   function RadioComponent(appStateService, youtubeService, domSanitizer, screenOrientation, streamingMedia, toastController, platform) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, RadioComponent);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, RadioComponent);
 
     this.appStateService = appStateService;
     this.youtubeService = youtubeService;
@@ -1393,7 +1438,7 @@ var RadioComponent = /*#__PURE__*/function () {
     this.viewedvideos = [];
   }
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(RadioComponent, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(RadioComponent, [{
     key: "ngOnInit",
     value: function ngOnInit() {
       console.dir(this.appData); // Play an audio file with options (all options optional)
@@ -1571,9 +1616,9 @@ var RadioComponent = /*#__PURE__*/function () {
   }, {
     key: "showErrorMessage",
     value: function showErrorMessage() {
-      return (0,tslib__WEBPACK_IMPORTED_MODULE_11__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
+      return (0,tslib__WEBPACK_IMPORTED_MODULE_11__.__awaiter)(this, void 0, void 0, /*#__PURE__*/D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().mark(function _callee() {
         var toast;
-        return D_muthus_nbtv_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
+        return D_muthus_nbtv_master_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default().wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
@@ -1635,7 +1680,7 @@ RadioComponent.propDecorators = {
 };
 RadioComponent = (0,tslib__WEBPACK_IMPORTED_MODULE_11__.__decorate)([(0,_angular_core__WEBPACK_IMPORTED_MODULE_10__.Component)({
   selector: 'app-radio',
-  template: _D_muthus_nbtv_node_modules_ngtools_webpack_src_loaders_direct_resource_js_radio_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
+  template: _D_muthus_nbtv_master_node_modules_ngtools_webpack_src_loaders_direct_resource_js_radio_component_html__WEBPACK_IMPORTED_MODULE_3__["default"],
   styles: [_radio_component_scss__WEBPACK_IMPORTED_MODULE_4__]
 })], RadioComponent);
 
@@ -1675,8 +1720,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "YoutubeService": function() { return /* binding */ YoutubeService; }
 /* harmony export */ });
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
-/* harmony import */ var D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ 5960);
+/* harmony import */ var D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ 9367);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 8806);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ 6781);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ 4001);
@@ -1688,7 +1733,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var YoutubeService = /*#__PURE__*/function () {
   function YoutubeService(httpClient) {
-    (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, YoutubeService);
+    (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, YoutubeService);
 
     this.httpClient = httpClient;
     this.channel = 'UCIztcOKnrVrXdBjI24CnSHw';
@@ -1701,7 +1746,7 @@ var YoutubeService = /*#__PURE__*/function () {
    */
 
 
-  (0,D_muthus_nbtv_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(YoutubeService, [{
+  (0,D_muthus_nbtv_master_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(YoutubeService, [{
     key: "getVideos",
     value: function getVideos() {
       var options = {
@@ -2044,7 +2089,7 @@ module.exports = webpackAsyncContext;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-app>\r\n\r\n  <!-- add side menu -->\r\n  <ion-menu side=\"start\" contentId=\"menuContent\" menuId=\"aboutMenu\" class=\"menu-font\" *ngIf=\"appData\">\r\n    <ion-header>\r\n      <ion-toolbar translucent>\r\n        <ion-title>{{appData.title}}</ion-title>\r\n      </ion-toolbar>\r\n    </ion-header>\r\n    <ion-content>\r\n      <app-menu-content [appData]=\"appData\"></app-menu-content>\r\n    </ion-content>\r\n  </ion-menu>\r\n\r\n\r\n  <!-- add toolbar -->\r\n  <ion-header>\r\n    <ion-toolbar>\r\n      <!-- nbtv logo -->\r\n\r\n      <!-- Navigation Drawer Menu-->\r\n      <ion-buttons slot=\"start\">\r\n        <ion-button (click)=\"openAboutMenuItem()\">\r\n          <ion-icon  name=\"menu\" color=\"primary\"></ion-icon>\r\n        </ion-button>\r\n      </ion-buttons>\r\n      <ion-title>  \r\n        <ion-img [src]=\"nbtvLogoSrc\" class=\"nbtv-logo-center-xxsmall\"></ion-img>\r\n        </ion-title>\r\n    </ion-toolbar>\r\n    </ion-header>\r\n\r\n    <ion-content>\r\n      <ion-progress-bar type=\"indeterminate\" *ngIf=\"isDataInitialized\"></ion-progress-bar>\r\n      <ion-router-outlet id=\"menuContent\"></ion-router-outlet>\r\n    </ion-content>\r\n</ion-app>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-app>\r\n\r\n  <!-- add side menu -->\r\n  <ion-menu side=\"start\" contentId=\"menuContent\" menuId=\"aboutMenu\" class=\"menu-font\" *ngIf=\"appData\">\r\n    <ion-header>\r\n      <ion-toolbar translucent>\r\n        <ion-title>{{appData.title}}</ion-title>\r\n      </ion-toolbar>\r\n    </ion-header>\r\n    <ion-content>\r\n      <app-menu-content [appData]=\"appData\"></app-menu-content>\r\n    </ion-content>\r\n  </ion-menu>\r\n\r\n\r\n  <!-- add toolbar -->\r\n  <ion-header *ngIf=\"!fullscreen\">\r\n    <ion-toolbar>\r\n      <!-- nbtv logo -->\r\n\r\n      <!-- Navigation Drawer Menu-->\r\n      <ion-buttons slot=\"start\">\r\n        <ion-button (click)=\"openAboutMenuItem()\">\r\n          <ion-icon  name=\"menu\" color=\"primary\"></ion-icon>\r\n        </ion-button>\r\n      </ion-buttons>\r\n      <ion-title>  \r\n        <ion-img [src]=\"nbtvLogoSrc\" class=\"nbtv-logo-center-xxsmall\"></ion-img>\r\n        </ion-title>\r\n    </ion-toolbar>\r\n    </ion-header>\r\n\r\n    <ion-content>\r\n      <ion-progress-bar type=\"indeterminate\" *ngIf=\"isDataInitialized\"></ion-progress-bar>\r\n      <ion-router-outlet id=\"menuContent\"></ion-router-outlet>\r\n    </ion-content>\r\n</ion-app>\r\n");
 
 /***/ }),
 
@@ -2056,11 +2101,11 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- iframe video player will be shown only when source 2/3 is selected. Source 1 will play hls file -->\r\n<ion-grid class=\"portrait-mode-center\" *ngIf=\"selectedSource !== null && isPortait === true \">\r\n  <ion-row>\r\n    <ion-col>\r\n      <ion-item>\r\n        <iframe id=\"nbtv_video_player\" #video_player_iframe [src]=\"getSanitizedURL(selectedSource.url)\" class=\"nbtv-livetv-iframe-portrait\" >\r\n        </iframe>\r\n      </ion-item>\r\n    </ion-col>\r\n  </ion-row>\r\n  <ion-row>\r\n    <ion-col>\r\n      <ion-button expand=\"block\" color=\"tertiary\" (click)=\"changeToLandscape()\" color=\"light\">\r\n        View in Full Screen<ion-icon name=\"expand-outline\" color=\"dark\"></ion-icon>\r\n      </ion-button>\r\n    </ion-col>\r\n  </ion-row>\r\n</ion-grid>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- iframe video player will be shown only when source 2/3 is selected. Source 1 will play hls file -->\r\n<ion-grid class=\"\"  [ngClass]=\"(isPortait === true)?'portrait-mode-center':'landscape-mode-center p-0'\" *ngIf=\"selectedSource !== null\">\r\n  <div *ngIf=\"isPortait === false\" class=\"fullscreen-toolbar\">\r\n        <ion-icon name=\"close-circle\" color=\"light\" (click)=\"changeToPortait()\"></ion-icon>\r\n  </div>\r\n  <ion-row>\r\n    <ion-col class=\"p-0\">\r\n      <ion-item class=\"p-0 fill-width\">\r\n        <iframe id=\"nbtv_video_player\" #video_player_iframe [src]=\"getSanitizedURL(selectedSource.url)\" frameborder=\"0\" [ngClass]=\"(isPortait === true)?'nbtv-livetv-iframe-portrait':'nbtv-livetv-iframe-landscape'\" allowfullscreen>\r\n        </iframe>\r\n\r\n\r\n      </ion-item>\r\n    </ion-col>\r\n  </ion-row>\r\n  <ion-row *ngIf=\"isPortait === true\"> \r\n    <ion-col>\r\n      <ion-button expand=\"block\" color=\"tertiary\" (click)=\"changeToLandscape()\" color=\"light\">\r\n        View in Full Screen<ion-icon name=\"expand-outline\" color=\"dark\"></ion-icon>\r\n      </ion-button>\r\n    </ion-col>\r\n  </ion-row>\r\n\r\n</ion-grid>\r\n");
 
 /***/ }),
 
-/***/ 3831:
+/***/ 1221:
 /*!************************************************************************************************************************************!*\
   !*** ./node_modules/@ngtools/webpack/src/loaders/direct-resource.js!./src/app/components/menu-content/menu-content.component.html ***!
   \************************************************************************************************************************************/
@@ -2104,7 +2149,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ion-grid class=\"portrait-mode-center radio-player\" *ngIf=\"selectedSource !== null\">\r\n  <ion-row>\r\n    <ion-col class=\"radio-player-col\">\r\n      <!-- <ion-item>\r\n        <iframe id=\"nbtv_video_player\" #video_player_iframe [src]=\"getSanitizedURL('http://transcoding.livebox.co.in/liveradio/public/nakkubetta_radio')\" class=\"nbtv-livetv-iframe-portrait\" >\r\n        </iframe>\r\n      </ion-item> -->\r\n    </ion-col>\r\n  </ion-row>\r\n</ion-grid>\r\n\r\n<div>\r\n    <h5 class=\"sub-heading\"><b>Trending</b></h5>\r\n    <ion-grid>\r\n<ion-row>\r\n    <swiper [slidesPerView]=\"isPortait?2:3\" [zoom]=\"true\" (reachEnd)=\"checkMoreVideos($event,1)\" style=\"\">\r\n    <ng-container *ngFor=\"let video of videos\">\r\n            <ng-template swiperSlide>\r\n              <ion-col class=\"slide-col\">\r\n                <ion-img [src]=\"video.snippet.thumbnails.medium.url\"></ion-img>\r\n                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->\r\n              </ion-col>\r\n            </ng-template>\r\n        </ng-container>\r\n  </swiper>\r\n  </ion-row>\r\n</ion-grid>\r\n</div>\r\n\r\n\r\n<div>\r\n    <h5 class=\"sub-heading\"><b>Latest</b></h5>\r\n    <ion-grid>\r\n<ion-row>\r\n    <swiper [slidesPerView]=\"isPortait?2:3\" [zoom]=\"true\" (reachEnd)=\"checkMoreVideos($event,1)\" style=\"\">\r\n    <ng-container *ngFor=\"let video of latestvideos\">\r\n            <ng-template swiperSlide>\r\n              <ion-col class=\"slide-col\">\r\n                <ion-img [src]=\"video.snippet.thumbnails.medium.url\"></ion-img>\r\n                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->\r\n              </ion-col>\r\n            </ng-template>\r\n        </ng-container>\r\n  </swiper>\r\n  </ion-row>\r\n</ion-grid>\r\n</div>\r\n\r\n<div>\r\n    <h5 class=\"sub-heading\"><b>Mostly Viewed</b></h5>\r\n    <ion-grid>\r\n<ion-row>\r\n    <swiper [slidesPerView]=\"isPortait?2:3\" [zoom]=\"true\" (reachEnd)=\"checkMoreVideos($event,1)\" style=\"\">\r\n    <ng-container *ngFor=\"let video of viewedvideos\">\r\n            <ng-template swiperSlide>\r\n              <ion-col class=\"slide-col\">\r\n                <ion-img [src]=\"video.snippet.thumbnails.medium.url\"></ion-img>\r\n                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->\r\n              </ion-col>\r\n            </ng-template>\r\n        </ng-container>\r\n  </swiper>\r\n  </ion-row>\r\n</ion-grid>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ion-grid class=\"portrait-mode-center radio-player\">\r\n  <ion-row>\r\n    <ion-col>\r\n      \r\n    </ion-col>\r\n  </ion-row>\r\n</ion-grid>\r\n\r\n<ion-grid class=\"portrait-mode-center\" *ngIf=\"selectedSource !== null\">\r\n  <ion-row>\r\n    <ion-col class=\"radio-player-col\">\r\n      <ion-item>\r\n        <iframe id=\"nbtv_video_player\" #video_player_iframe [src]=\"getSanitizedURL('http://transcoding.livebox.co.in/liveradio/public/nakkubetta_radio')\" class=\"nbtv-livetv-iframe-portrait\" >\r\n        </iframe>\r\n      </ion-item>\r\n    </ion-col>\r\n  </ion-row>\r\n</ion-grid>\r\n\r\n<div>\r\n    <h5 class=\"sub-heading\"><b>Trending</b></h5>\r\n    <ion-grid>\r\n<ion-row>\r\n    <swiper [slidesPerView]=\"isPortait?2:3\" [zoom]=\"true\" (reachEnd)=\"checkMoreVideos($event,1)\" style=\"\">\r\n    <ng-container *ngFor=\"let video of videos\">\r\n            <ng-template swiperSlide>\r\n              <ion-col class=\"slide-col\">\r\n                <ion-img [src]=\"video.snippet.thumbnails.medium.url\"></ion-img>\r\n                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->\r\n              </ion-col>\r\n            </ng-template>\r\n        </ng-container>\r\n  </swiper>\r\n  </ion-row>\r\n</ion-grid>\r\n</div>\r\n\r\n\r\n<div>\r\n    <h5 class=\"sub-heading\"><b>Latest</b></h5>\r\n    <ion-grid>\r\n<ion-row>\r\n    <swiper [slidesPerView]=\"isPortait?2:3\" [zoom]=\"true\" (reachEnd)=\"checkMoreVideos($event,1)\" style=\"\">\r\n    <ng-container *ngFor=\"let video of latestvideos\">\r\n            <ng-template swiperSlide>\r\n              <ion-col class=\"slide-col\">\r\n                <ion-img [src]=\"video.snippet.thumbnails.medium.url\"></ion-img>\r\n                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->\r\n              </ion-col>\r\n            </ng-template>\r\n        </ng-container>\r\n  </swiper>\r\n  </ion-row>\r\n</ion-grid>\r\n</div>\r\n\r\n<div>\r\n    <h5 class=\"sub-heading\"><b>Mostly Viewed</b></h5>\r\n    <ion-grid>\r\n<ion-row>\r\n    <swiper [slidesPerView]=\"isPortait?2:3\" [zoom]=\"true\" (reachEnd)=\"checkMoreVideos($event,1)\" style=\"\">\r\n    <ng-container *ngFor=\"let video of viewedvideos\">\r\n            <ng-template swiperSlide>\r\n              <ion-col class=\"slide-col\">\r\n                <ion-img [src]=\"video.snippet.thumbnails.medium.url\"></ion-img>\r\n                <!-- <ion-label>{{video.snippet.title}}</ion-label> -->\r\n              </ion-col>\r\n            </ng-template>\r\n        </ng-container>\r\n  </swiper>\r\n  </ion-row>\r\n</ion-grid>\r\n</div>");
 
 /***/ }),
 
@@ -2126,7 +2171,7 @@ module.exports = ".nbtv-logo-center-small {\n  height: 25vh;\n  width: 25vw;\n  
 /***/ (function(module) {
 
 "use strict";
-module.exports = ".nbtv-livetv-iframe-portrait {\n  width: 100vw;\n  /* set height based on the width in portait mode*/\n  height: 56.25vw;\n  border: 0;\n  margin: auto;\n}\n\n.nbtv-livetv-iframe-landscape {\n  width: 100vw;\n  height: 100vh;\n}\n\n.portrait-mode-center {\n  padding-top: 35%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpdmUtdHYuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsaURBQUE7RUFDQSxlQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7QUFDSjs7QUFFQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0FBQ0o7O0FBRUE7RUFDSSxnQkFBQTtBQUNKIiwiZmlsZSI6ImxpdmUtdHYuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubmJ0di1saXZldHYtaWZyYW1lLXBvcnRyYWl0IHtcclxuICAgIHdpZHRoOiAxMDB2dztcclxuICAgIC8qIHNldCBoZWlnaHQgYmFzZWQgb24gdGhlIHdpZHRoIGluIHBvcnRhaXQgbW9kZSovXHJcbiAgICBoZWlnaHQ6IGNhbGMoKDkvMTYpKiAxMDB2dyk7IFxyXG4gICAgYm9yZGVyOiAwO1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG59XHJcblxyXG4ubmJ0di1saXZldHYtaWZyYW1lLWxhbmRzY2FwZSB7XHJcbiAgICB3aWR0aDogMTAwdnc7XHJcbiAgICBoZWlnaHQ6IDEwMHZoO1xyXG59XHJcblxyXG4ucG9ydHJhaXQtbW9kZS1jZW50ZXIge1xyXG4gICAgcGFkZGluZy10b3A6IDM1JTtcclxufSJdfQ== */";
+module.exports = ".nbtv-livetv-iframe-portrait {\n  width: 100vw;\n  /* set height based on the width in portait mode*/\n  height: 56.25vw;\n  border: 0;\n  margin: auto;\n}\n\n.nbtv-livetv-iframe-landscape {\n  width: 100vw;\n  height: 100vh;\n}\n\n.portrait-mode-center {\n  padding: 35% 0 0 0;\n}\n\n.p-0 {\n  padding: 0px;\n}\n\n.fill-width {\n  margin-left: -15px;\n  margin-right: -15px;\n}\n\n.fullscreen-toolbar {\n  font-size: 2rem;\n  font-weight: bold;\n  cursor: pointer;\n}\n\n.fullscreen-toolbar ion-icon {\n  padding: 0px;\n  background-color: #262626;\n  margin: 5px;\n  position: absolute;\n  z-index: 50000000;\n  cursor: pointer;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpdmUtdHYuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxZQUFBO0VBQ0EsaURBQUE7RUFDQSxlQUFBO0VBQ0EsU0FBQTtFQUNBLFlBQUE7QUFDSjs7QUFFQTtFQUNJLFlBQUE7RUFDQSxhQUFBO0FBQ0o7O0FBRUE7RUFDSSxrQkFBQTtBQUNKOztBQUVBO0VBQ0MsWUFBQTtBQUNEOztBQUNBO0VBQ0Msa0JBQUE7RUFDQSxtQkFBQTtBQUVEOztBQUNBO0VBQ0UsZUFBQTtFQUNFLGlCQUFBO0VBQ0EsZUFBQTtBQUVKOztBQUNBO0VBQ0MsWUFBQTtFQUNHLHlCQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxlQUFBO0FBRUoiLCJmaWxlIjoibGl2ZS10di5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5uYnR2LWxpdmV0di1pZnJhbWUtcG9ydHJhaXQge1xyXG4gICAgd2lkdGg6IDEwMHZ3O1xyXG4gICAgLyogc2V0IGhlaWdodCBiYXNlZCBvbiB0aGUgd2lkdGggaW4gcG9ydGFpdCBtb2RlKi9cclxuICAgIGhlaWdodDogY2FsYygoOS8xNikqIDEwMHZ3KTsgXHJcbiAgICBib3JkZXI6IDA7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbn1cclxuXHJcbi5uYnR2LWxpdmV0di1pZnJhbWUtbGFuZHNjYXBlIHtcclxuICAgIHdpZHRoOiAxMDB2dztcclxuICAgIGhlaWdodDogMTAwdmg7XHJcbn1cclxuXHJcbi5wb3J0cmFpdC1tb2RlLWNlbnRlciB7XHJcbiAgICBwYWRkaW5nOiAzNSUgMCAwIDA7XHJcbn1cclxuXHJcbi5wLTB7XHJcblx0cGFkZGluZzowcHg7XHJcbn1cclxuLmZpbGwtd2lkdGh7XHJcblx0bWFyZ2luLWxlZnQ6IC0xNXB4O1xyXG5cdG1hcmdpbi1yaWdodDogLTE1cHg7XHJcbn1cclxuXHJcbi5mdWxsc2NyZWVuLXRvb2xiYXJ7XHJcblx0IGZvbnQtc2l6ZTogMnJlbTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4uZnVsbHNjcmVlbi10b29sYmFyIGlvbi1pY29ue1xyXG5cdHBhZGRpbmc6IDBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICMyNjI2MjY7XHJcbiAgICBtYXJnaW46IDVweDtcclxuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcclxuICAgIHotaW5kZXg6IDUwMDAwMDAwO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG5cclxufSJdfQ== */";
 
 /***/ }),
 
@@ -2170,7 +2215,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /***/ (function(module) {
 
 "use strict";
-module.exports = ".card-background-light {\n  background-color: #FFFFFF;\n}\n\n.nbtv-logo-center-small {\n  /** \n  height: 40vh;\n  **/\n  width: 40vw;\n  margin: auto;\n}\n\n.radio-player-col {\n  padding: 0px;\n}\n\n.radio-player-col .item {\n  --padding-start: 0px;\n  --inner-padding-end: 0px;\n}\n\n#nbtv_video_player {\n  width: 100vw;\n}\n\n.sub-heading {\n  padding: 10px 10px 0 10px;\n  margin: 0px;\n}\n\n.radio-player {\n  background-image: url('radio-logo.jpeg');\n  background-repeat: no-repeat;\n  background-position: center;\n  min-height: 250px;\n  background-attachment: fixed;\n}\n\n.slide-col {\n  padding: 0px;\n  cursor: pointer;\n}\n\n.swiper-slide:hover {\n  border: 3px solid #ccc;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJhZGlvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUJBQUE7QUFDSjs7QUFFQTtFQUNJOztJQUFBO0VBR0EsV0FBQTtFQUNBLFlBQUE7QUFDSjs7QUFDQTtFQUNDLFlBQUE7QUFFRDs7QUFBQTtFQUNDLG9CQUFBO0VBQ0Esd0JBQUE7QUFHRDs7QUFEQTtFQUNDLFlBQUE7QUFJRDs7QUFGQTtFQUNDLHlCQUFBO0VBQ0EsV0FBQTtBQUtEOztBQUhBO0VBQ0Msd0NBQUE7RUFDRyw0QkFBQTtFQUNBLDJCQUFBO0VBQ0EsaUJBQUE7RUFDQSw0QkFBQTtBQU1KOztBQUpBO0VBQ0MsWUFBQTtFQUNBLGVBQUE7QUFPRDs7QUFKQTtFQUNDLHNCQUFBO0FBT0QiLCJmaWxlIjoicmFkaW8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZC1iYWNrZ3JvdW5kLWxpZ2h0IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7XHJcbn1cclxuXHJcbi5uYnR2LWxvZ28tY2VudGVyLXNtYWxsIHtcclxuICAgIC8qKiBcclxuICAgIGhlaWdodDogNDB2aDtcclxuICAgICoqL1xyXG4gICAgd2lkdGg6IDQwdnc7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbn1cclxuLnJhZGlvLXBsYXllci1jb2x7XHJcblx0cGFkZGluZzowcHg7XHJcbn1cclxuLnJhZGlvLXBsYXllci1jb2wgLml0ZW17XHJcblx0LS1wYWRkaW5nLXN0YXJ0OiAwcHg7XHJcblx0LS1pbm5lci1wYWRkaW5nLWVuZDogMHB4O1xyXG59XHJcbiNuYnR2X3ZpZGVvX3BsYXllcntcclxuXHR3aWR0aDogMTAwdnc7XHJcbn1cclxuLnN1Yi1oZWFkaW5ne1xyXG5cdHBhZGRpbmc6IDEwcHggMTBweCAwIDEwcHg7XHJcblx0bWFyZ2luOiAwcHg7XHJcbn1cclxuLnJhZGlvLXBsYXllcntcclxuXHRiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uLy4uL2Fzc2V0cy9pbWcvcmFkaW8tbG9nby5qcGVnJyk7XHJcbiAgICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyO1xyXG4gICAgbWluLWhlaWdodDogMjUwcHg7XHJcbiAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xyXG59XHJcbi5zbGlkZS1jb2x7XHJcblx0cGFkZGluZzogMHB4O1xyXG5cdGN1cnNvcjpwb2ludGVyO1xyXG59XHJcblxyXG4uc3dpcGVyLXNsaWRlOmhvdmVye1xyXG5cdGJvcmRlcjogM3B4IHNvbGlkICNjY2M7XHJcbn0iXX0= */";
+module.exports = ".card-background-light {\n  background-color: #FFFFFF;\n}\n\n.portrait-mode-center {\n  padding: 0px;\n}\n\n.nbtv-logo-center-small {\n  /** \n  height: 40vh;\n  **/\n  width: 40vw;\n  margin: auto;\n}\n\n.radio-player-col {\n  padding: 0px;\n}\n\n.radio-player-col .item {\n  --padding-start: 0px;\n  --inner-padding-end: 0px;\n}\n\n#nbtv_video_player {\n  width: 100vw;\n  min-height: 300px;\n}\n\n.sub-heading {\n  padding: 10px 10px 0 10px;\n  margin: 0px;\n}\n\n.radio-player {\n  background-image: url('radio-logo.jpeg');\n  background-repeat: no-repeat;\n  background-position: center;\n  min-height: 250px;\n  background-attachment: fixed;\n}\n\n.slide-col {\n  padding: 0px;\n  cursor: pointer;\n}\n\n.swiper-slide:hover {\n  border: 3px solid #ccc;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJhZGlvLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0kseUJBQUE7QUFDSjs7QUFDQTtFQUNDLFlBQUE7QUFFRDs7QUFBQTtFQUNJOztJQUFBO0VBR0EsV0FBQTtFQUNBLFlBQUE7QUFHSjs7QUFEQTtFQUNDLFlBQUE7QUFJRDs7QUFGQTtFQUNDLG9CQUFBO0VBQ0Esd0JBQUE7QUFLRDs7QUFIQTtFQUNDLFlBQUE7RUFDQSxpQkFBQTtBQU1EOztBQUpBO0VBQ0MseUJBQUE7RUFDQSxXQUFBO0FBT0Q7O0FBTEE7RUFDQyx3Q0FBQTtFQUNHLDRCQUFBO0VBQ0EsMkJBQUE7RUFDQSxpQkFBQTtFQUNBLDRCQUFBO0FBUUo7O0FBTkE7RUFDQyxZQUFBO0VBQ0EsZUFBQTtBQVNEOztBQU5BO0VBQ0Msc0JBQUE7QUFTRCIsImZpbGUiOiJyYWRpby5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYXJkLWJhY2tncm91bmQtbGlnaHQge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRjtcclxufVxyXG4ucG9ydHJhaXQtbW9kZS1jZW50ZXJ7XHJcblx0cGFkZGluZzowcHg7XHJcbn1cclxuLm5idHYtbG9nby1jZW50ZXItc21hbGwge1xyXG4gICAgLyoqIFxyXG4gICAgaGVpZ2h0OiA0MHZoO1xyXG4gICAgKiovXHJcbiAgICB3aWR0aDogNDB2dztcclxuICAgIG1hcmdpbjogYXV0bztcclxufVxyXG4ucmFkaW8tcGxheWVyLWNvbHtcclxuXHRwYWRkaW5nOjBweDtcclxufVxyXG4ucmFkaW8tcGxheWVyLWNvbCAuaXRlbXtcclxuXHQtLXBhZGRpbmctc3RhcnQ6IDBweDtcclxuXHQtLWlubmVyLXBhZGRpbmctZW5kOiAwcHg7XHJcbn1cclxuI25idHZfdmlkZW9fcGxheWVye1xyXG5cdHdpZHRoOiAxMDB2dztcclxuXHRtaW4taGVpZ2h0OiAzMDBweDtcclxufVxyXG4uc3ViLWhlYWRpbmd7XHJcblx0cGFkZGluZzogMTBweCAxMHB4IDAgMTBweDtcclxuXHRtYXJnaW46IDBweDtcclxufVxyXG4ucmFkaW8tcGxheWVye1xyXG5cdGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vLi4vYXNzZXRzL2ltZy9yYWRpby1sb2dvLmpwZWcnKTtcclxuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgICBtaW4taGVpZ2h0OiAyNTBweDtcclxuICAgIGJhY2tncm91bmQtYXR0YWNobWVudDogZml4ZWQ7XHJcbn1cclxuLnNsaWRlLWNvbHtcclxuXHRwYWRkaW5nOiAwcHg7XHJcblx0Y3Vyc29yOnBvaW50ZXI7XHJcbn1cclxuXHJcbi5zd2lwZXItc2xpZGU6aG92ZXJ7XHJcblx0Ym9yZGVyOiAzcHggc29saWQgI2NjYztcclxufSJdfQ== */";
 
 /***/ })
 
